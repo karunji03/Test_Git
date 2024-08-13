@@ -71,7 +71,13 @@
     "topLevelPackage" : "io.prophecy.pipelines.test_git_pipeline",
     "configurationVersion" : "v2"
   },
-  "connections" : [ ],
+  "connections" : [ {
+    "id" : "ggjXRjivPHeTpZ2aobGG_$$pJ9Zkf7i942ct40Vmrbom",
+    "source" : "SQ98R8L2Q9HMVyUaoA0hZ$$67JUaWb0adq43i5ScUoqm",
+    "sourcePort" : "xzF7b8fjWk9bbyV87WnOw$$pd7RaN-a3VfF6rpMugShV",
+    "target" : "-jaOvpkd2pLgKBReeaBTY$$E_PH0OGfz7iZTTh2M2h9n",
+    "targetPort" : "YFtufw1TBa14YhZjAA0gL$$J68aDctzx7IwcUtSRbz72"
+  } ],
   "processes" : {
     "SQ98R8L2Q9HMVyUaoA0hZ$$67JUaWb0adq43i5ScUoqm" : {
       "id" : "SQ98R8L2Q9HMVyUaoA0hZ$$67JUaWb0adq43i5ScUoqm",
@@ -92,6 +98,31 @@
           "id" : "xzF7b8fjWk9bbyV87WnOw$$pd7RaN-a3VfF6rpMugShV",
           "slug" : "out"
         } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      },
+      "properties" : { }
+    },
+    "-jaOvpkd2pLgKBReeaBTY$$E_PH0OGfz7iZTTh2M2h9n" : {
+      "id" : "-jaOvpkd2pLgKBReeaBTY$$E_PH0OGfz7iZTTh2M2h9n",
+      "component" : "Target",
+      "metadata" : {
+        "label" : "Target_1",
+        "slug" : "Target_1",
+        "x" : 480,
+        "y" : 100,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "YFtufw1TBa14YhZjAA0gL$$J68aDctzx7IwcUtSRbz72",
+          "slug" : "in"
+        } ],
+        "outputs" : [ ],
         "selectedInputFields" : [ ],
         "isCustomOutputSchema" : false,
         "autoUpdateOnRun" : false
@@ -119,6 +150,38 @@
       }
     },
     "severity" : 1,
+    "message" : "dataset id missing",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  }, {
+    "property" : "$.workflow.processes.-jaOvpkd2pLgKBReeaBTY$$E_PH0OGfz7iZTTh2M2h9n",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 2,
+    "message" : "One of the upstream gems is broken. Please, fix it first.",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  }, {
+    "property" : "$.workflow.processes.-jaOvpkd2pLgKBReeaBTY$$E_PH0OGfz7iZTTh2M2h9n.properties.datasetId",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 2,
     "message" : "dataset id missing",
     "tags" : [ ],
     "relatedInformation" : [ ]

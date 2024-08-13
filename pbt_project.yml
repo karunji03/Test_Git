@@ -50,12 +50,12 @@ sqlSources: {}
 sqlUnreferencedSources: {}
 sqlPipeline: null
 dependencies:
-- modifiedAt: '2024-08-13T17:16:12.937614Z'
+- type: plibMaven
+  modifiedAt: '2024-08-13T17:29:55.672234Z'
   name: plibMaven
   version: 8.0.31
-  id: '686720055'
-  createdAt: '2024-08-13T17:16:12.937614Z'
-  type: plibMaven
+  id: '1681370896'
+  createdAt: '2024-08-13T17:29:55.672182Z'
 projectDependencies:
   '12652':
     projectUID: 12652
